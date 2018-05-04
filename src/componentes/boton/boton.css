@@ -1,13 +1,4 @@
-import React, { Component } from 'react';
-
-import './'
-
-class Boton {
-  render(){
-    return(
-      <div>
-
-      </div>
-    )
-  }
+.boton{
+  border: solid 1px;
+  padding: 5px;
 }
