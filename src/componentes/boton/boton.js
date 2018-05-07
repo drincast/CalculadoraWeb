@@ -4,9 +4,10 @@ import './boton.css';
 
 class Boton extends Component {
   ImprimirValor(){
-    //return (this.props.valor);
-    //console.log(this.props.valor);
-    this.props.MePresiono;
+    //pasamos por parametro a la función "bindeada" al atributo MePresiono, declarado en el componente
+    //donde llamamos al componente boton, estos parametros quedan despues de los parametros enviados
+    //a la funcion que enlaza el atributo
+    this.props.MePresiono(this.props.valor, this.props.tipo);
   }
 
   render(){

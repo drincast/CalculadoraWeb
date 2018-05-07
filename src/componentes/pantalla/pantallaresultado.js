@@ -15,6 +15,7 @@ class PantallaResultado extends Component {
     //   this.props.resultado = 0;
     // }
     // console.log(this.props.resultado);
+    //this.setState({resultado: this.props.resultado});
   }
 
   render() {
