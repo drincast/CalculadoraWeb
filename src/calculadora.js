@@ -42,7 +42,6 @@ class Calculadora extends Component {
     else{
       this.setState({pantalla: valor});
     }
-    this.ImprimirEstadoLog();
   }
 
   EjecutarOperacion(valor){
